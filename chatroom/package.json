@@ -1,0 +1,22 @@
+{
+  "name": "module6-group-mod6-464082-466205",
+  "version": "1.0.0",
+  "description": "Student IDs: 464082 (Helen Jiang) 466205 (Zach Zhao)",
+  "main": "chat-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-spring-2020/module6-group-mod6-464082-466205.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-spring-2020/module6-group-mod6-464082-466205/issues"
+  },
+  "homepage": "https://github.com/cse330-spring-2020/module6-group-mod6-464082-466205#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
