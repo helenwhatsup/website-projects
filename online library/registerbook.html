@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang = "en">
+	<head>
+		<title>E-library Website</title>
+		<meta charset="utf-8" />
+		
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">E-Library Website</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="listall2.php" id = "home">List of All Books</a>
+						<a href="login.html">User Login</a>
+						<a href="registerbook.html">User Register</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" >
+				<div class="inner">
+					<header class="major special">
+                        <h1>New user Resister</h1>
+                        <p>Welcome to E-Library!</p>
+						
+                    </header>
+                    
+					<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+					
+                        <h1> Register</h1>
+                        <!--Register new user-->
+                        <form action="register.php" method="POST">
+                            <h1> Please enter your information to create a new user account</h1>
+                
+                                <label>New User: Please Add A New User</label>
+                                <input type="text" name="username" id="username" />
+                
+                            <label>Password:</label>
+                            <input type="password" name="password" id="password">
+                
+                            <label>Re-enter Password:</label>
+                            <input type="password" name="repass" id="repass">
+                
+                
+                            <p>
+                                <input type="submit" name="adduser" value="adduser" />
+                                <input type = "reset"  id = "reset" value = "reset"/>
+                            </p>
+                
+                            <a href="index.html">Return to main page</a>
+                        </form>
+                
+                  
+                </div>
+            </section>
+        </body>
+</html>
+
+		<!-- Footer -->

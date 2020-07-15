@@ -1,0 +1,83 @@
+body{
+    font-family: 'Gotham Rounded', sans-serif;
+      height:110vh;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      color: rgb(157, 186, 248);
+    }
+    
+    
+  
+    .general-information {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    .location {
+      font-size: 3rem;
+    }
+    
+    .tips{
+      font-size: 1.5em
+    }
+    .detail-section {
+      margin-top: 30px;
+    }
+    
+    .detail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-basis: 0;
+      flex-grow: 1;
+      padding: 10px;
+    }
+    
+    .detail .title {
+      font-size: 20px;
+      font-weight: bold;
+      color:rgb(157, 186, 248);
+    }
+    .pac-icon {
+        padding: 50px 55px;
+        display: flex;
+      }
+    
+    .detail .value {
+      font-size: 18px;
+      margin-top: 20px;
+      color:rgb(157, 186, 248);
+    }
+    
+    .detail .hu{
+      font-size: 2rem;
+      flex-grow: 1;
+      margin-top: 20px;
+      color: rgb(157, 186, 248);
+    }
+  
+    .detail .uv{
+      font-size: 2rem;
+      flex-grow: 1;
+      margin-top: 20px;
+      color: rgb(157, 186, 248);
+    }
+  
+    .city-search-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .city-search {
+      margin-top: 40px;
+      font-size: 2rem;
+      outline: none;
+      border: 1px solid #777;
+      border-radius: 5px;
+      padding: 10px 15px;
+      width: 90%;
+    }
+    

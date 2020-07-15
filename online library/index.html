@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html lang = "en">  
+        <head>
+                <title>E-library Website</title>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+                <link rel="stylesheet" href="css/main.css" />
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <script type='text/javascript' src='config.js'></script>
+                <script type="text/javascript" src="script.js"></script>
+                <script src="App.js"></script>
+                <script src="App.js"></script>
+                <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqMJRRZddi-jCtUsStj0kn7xLyx-PFGsg&libraries=places"></script>
+                <script defer src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
+            
+                  
+    
+
+        </head>
+        <body>
+
+                <!-- Header -->
+                        <header id="header">
+                                <div class="inner">
+                                        <a href="index.html" class="logo">E-Library Website</a>
+                                        <nav id="nav">
+                                                <a href="index.html" id = "home">Home</a>
+                                                <a href="listall2.php" id = "home2">List of All Books</a>
+                                                <a href="login.html" id = "userlogin">User Login</a>
+                                                <a href="registerbook.html" id = "userregister" >User Register</a>
+                                                <a href=weather.html id=weather> Weather LookUp</a>
+                                        </nav>
+                                </div>
+                        </header>
+                        <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+
+                <!-- Banner -->
+                        <section id="banner">
+                                <div class="inner">
+                                        <h1>Welcome to E-Library: <span>Here you can browse books,list your books and find other readers!You could even look up the weather!<br />
+                                </span></h1>
+                                </div>
+                        </section>
+
+                        <h2> Search For Books </h2>
+
+
+                        <div class="container">
+                                        <div id="searchBox">
+                                                <form id="form" class="form-inline">
+                                                        <input type="text" id="searchText">
+                                                        <input type="submit" value="Search">
+                                                        <select id="type">
+                                                                <option value="Title">Title</option>
+                                                                <option value="Author">Author</option>
+
+                                                        </select>
+                                                        <select id="order">
+                                                                <option value="Relevance">Relevance</option>
+                                                                <option value="Publish Date">Publish Date</option>
+                                                        </select>
+                                                </form>
+                                        </div>
+                                        <!-- <h3> Search Results</h3> -->
+                                <div id="resulttext"></div>
+                                <div id="result"></div>
+
+
+                        </div>
+<br>
+
+                        <div id="result2">
+                                <h3>Search Results: </h3>
+
+                        </div>
+
+        </body>
+</html>

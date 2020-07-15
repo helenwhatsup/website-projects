@@ -1,0 +1,19 @@
+{
+  "name": "creativeproject-module7-464082-466205",
+  "version": "1.0.0",
+  "description": "466205 464082",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-spring-2020/creativeproject-module7-464082-466205.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-spring-2020/creativeproject-module7-464082-466205/issues"
+  },
+  "homepage": "https://github.com/cse330-spring-2020/creativeproject-module7-464082-466205#readme"
+}
