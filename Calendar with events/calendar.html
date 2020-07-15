@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <meta charset="utf-8" />
+    <title>
+        Calendar
+    </title>
+    <h1>
+        Helen & Zach's Calendar
+    </h1>
+    <head>
+        <script src= http://classes.engineering.wustl.edu/cse330/content/calendar.min.js></script>
+        <script src=calendar.js></script>
+        <link rel="stylesheet" type="text/css" href="calendar.css">
+    </head>
+
+<style>
+head{
+    text-align: center;
+    }
+body{
+    background:#9adef8
+}
+.calendar{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+th{
+    border-left:10px solid rgb(83, 54, 243);
+    border-right:10px solid rgb(83, 54, 243);
+    border-bottom:10px solid rgb(83, 54, 243);
+    border-top:10px solid rgb(83, 54, 243);
+    width:200px;
+    height:75px;
+    font-size: 200%
+}
+td{
+    width:200px;
+    height:75px;
+    font-size: 260%;
+    border-left:5px solid rgb(241, 107, 29);
+    border-right:5px solid rgb(241, 107, 29);
+    border-bottom:5px solid rgb(241, 107, 29);
+    border-top:5px solid rgb(241, 107, 29);
+}
+
+
+</style>
+
+    <body>
+       
+    <div id="month" class="month">
+        <ul>
+            <li class="prev">
+              <button id="previousbutton">Previous Month &#10094;</button>
+            </li>
+            <li>
+              <button id="nextbutton">Next Month&#10095;</button>
+            </li>
+        </ul>
+        <h2> Current Month:</h2><span id="Month" style="font-size:30px"></span>  
+          <span id="Year" style="font-size:30px"></span>
+        <table id="days">
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="table">
+        <table id="calendar">
+        </table>
+    </div>
+
+
+    </body>
+ 
