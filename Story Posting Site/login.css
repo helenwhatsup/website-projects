@@ -1,0 +1,26 @@
+h1 {
+    top: 31%;
+    margin: 31px;
+    font-size: 30px;
+  text-shadow: 2px 2px rgb(224, 141, 162);
+  }
+
+  body {
+    text-decoration: blink;
+
+    text-decoration-color:rgb(119, 90, 187) ;
+
+    background: #eaf0bb;
+    font-family: Arial;
+    font-size: 25px;
+     text-align: center;
+  }
+
+  p {
+    text-decoration: blink;
+    font-size: 30px;
+    color:plum;
+    text-align: center;
+  text-shadow: 2px 2px #270a35;
+
+  }

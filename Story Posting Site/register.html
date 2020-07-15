@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login Page</title>
+        <link rel = "stylesheet" type = "text/css" href="login.css">
+
+    </head>
+
+
+    <body>
+        <h1> Register</h1>
+        <!--Register new user-->
+        <form action="register.php" method="POST">
+            <h1> Please enter your information to create a new user account</h1>
+
+                <label>New User: Please Add A New User</label>
+                <input type="text" name="username" id="username" />
+
+            <label>Password:</label>
+            <input type="password" name="password" id="password">
+
+            <label>Re-enter Password:</label>
+            <input type="password" name="repass" id="repass">
+
+
+            <p>
+                <input type="submit" name="adduser" value="adduser" />
+                <input type = "reset"  id = "reset" value = "reset"/>
+            </p>
+
+            <a href="login.html">Return to login page</a>
+        </form>
+
+    </body>
+    </html>
